@@ -156,3 +156,10 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+#icon{
+  width: 50px;
+  color: black;
+  height: 30px;
+  margin-bottom: 10px;
+
+}
