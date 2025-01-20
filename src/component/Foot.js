@@ -1,10 +1,12 @@
 import React from 'react'
+import { Row , Col} from 'react-bootstrap';
+
 
 const Foot = () => {
     return (
         <div className='container'>
-            <div className='row' style={{display:'flex'}}>
-                <div className='col-lg-2 col-sm-6'>
+            <Row className='cent' style={{display:'flex',}}>
+                <Col className=''>
                     <h3 style={{marginLeft:'20px'}}>Product</h3>
                     <h6>
                         <li><a href='/'>Overview</a></li>
@@ -14,8 +16,8 @@ const Foot = () => {
                         <li><a href='/'>Pricing</a></li>
                         <li><a href='/'>Releases</a></li>
                     </h6>
-                </div>
-                <div className='col-lg-2 col-sm-6'>
+                </Col>
+                <Col className=''>
                     <h3 style={{marginLeft:'20px'}}>Company</h3>
                     <h6>
                         <li><a href='/'>About us</a></li>
@@ -25,8 +27,8 @@ const Foot = () => {
                         <li><a href='/'>Media kit</a></li>
                         <li><a href='/'>Contact</a></li>
                     </h6>
-                </div>
-                <div className='col-lg-2 col-sm-6'>
+                </Col>
+                <Col className=''>
                     <h3 style={{marginLeft:'20px'}}>Resources</h3>
                     <h6>
                         <li><a href='/'>Blog</a></li>
@@ -36,8 +38,8 @@ const Foot = () => {
                         <li><a href='/'>Tutorials</a></li>
                         <li><a href='/'>Support</a></li>
                     </h6>
-                </div>
-                <div className='col-lg-2 col-sm-6'>
+                </Col>
+                <Col className=''>
                     <h3 style={{marginLeft:'20px'}}>Use cases</h3>
                     <h6>
                         <li><a href='/'>Startup</a></li>
@@ -47,8 +49,8 @@ const Foot = () => {
                         <li><a href='/'>MarketPlaces</a></li>
                         <li><a href='/'>Ecommerce</a></li>
                     </h6>
-                </div>
-                <div className='col-lg-2 col-sm-6'>
+                </Col>
+                <Col className=''>
                     <h3 style={{marginLeft:'20px'}}>Social</h3>
                     <h6>
                         <li><a href='/'>Twitter</a></li>
@@ -58,8 +60,8 @@ const Foot = () => {
                         <li><a href='/'>AngelList</a></li>
                         <li><a href='/'>Dribble</a></li>
                     </h6>
-                </div>
-                <div className='col-lg-2 col-sm-6'>
+                </Col>
+                <Col className=''>
                     <h3 style={{marginLeft:'20px'}}>Legal</h3>
                     <h6>
                         <li><a href='/'>Terms</a></li>
@@ -69,8 +71,8 @@ const Foot = () => {
                         <li><a href='/'>Settings</a></li>
                         <li><a href='/'>Contact</a></li>
                     </h6>
-                </div>
-            </div>
+                </Col>
+            </Row>
             <hr style={{border:"1px solid "}}/>
         </div>
     )
