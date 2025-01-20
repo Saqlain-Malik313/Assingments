@@ -4,7 +4,6 @@ import Main from './component/Main';
 import Feature from './component/Feature';
 import Blog from './component/Blog';
 import Footer from './component/Footer';
-import Foot from './component/Foot';
 import Last from './component/Last';
 
 const Home = () => {
@@ -15,7 +14,6 @@ const Home = () => {
     <Feature/>
     <Blog/>
     <Footer/>
-    <Foot/>
     <Last/>
     </>
   )
