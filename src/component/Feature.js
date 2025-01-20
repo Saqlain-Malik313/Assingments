@@ -1,7 +1,10 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { BsLightningChargeFill } from "react-icons/bs";
+import { BsLightningChargeFill,BsLightningCharge } from "react-icons/bs";
+import { LuMessageCircle, LuSquareArrowOutUpRight,LuMessageCircleHeart} from "react-icons/lu";
+import { FaVectorSquare } from "react-icons/fa6";
+import { TfiCommentsSmiley } from "react-icons/tfi";
 import CardGroup from 'react-bootstrap/CardGroup';
 import profile2 from "./logo/circle-profile-pic.jpg"
 import Toggle from './Toggle';
@@ -25,7 +28,8 @@ const Feature = () => {
                     <CardGroup className=''>
                         <Card id='Card'>
                             <Card.Body>
-                                <Card.Title id='title'>Share team inboxes</Card.Title>
+                                <div className='center'><LuMessageCircle id='icon'/></div>
+                                <Card.Title id='title'> Share team inboxes</Card.Title>
                                 <Card.Text>
                                 Whether you have a team of 2 or 200, cur shared team
                                 Inboxes keep everyone on the same page and in the loop.
@@ -35,6 +39,7 @@ const Feature = () => {
                         </Card>
                         <Card id='Card'>
                             <Card.Body>
+                                <div className='center'><BsLightningCharge id='icon' /></div>
                                 <Card.Title id='title'>Deliver instant answers</Card.Title>
                                 <Card.Text>
                                 An ad-in-one customer service platform that heips you balance everything
@@ -45,6 +50,7 @@ const Feature = () => {
                         </Card>
                         <Card id='Card'>
                             <Card.Body>
+                                <div className='center'><LuSquareArrowOutUpRight id='icon' /></div>
                                 <Card.Title id='title'>Manage your team with reports</Card.Title>
                                 <Card.Text>
                                 Measure what matters with Untitled's easy-to-use reports. You can filter, export,
@@ -59,6 +65,7 @@ const Feature = () => {
                     <CardGroup className=''>
                         <Card id='Card'>
                             <Card.Body>
+                                <div className='center'><TfiCommentsSmiley id='icon' /></div>
                                 <Card.Title id='title'>Connect with customers</Card.Title>
                                 <Card.Text>
                                 Solve a problem or close a sale in real-time with chat if no one is available,
@@ -69,6 +76,7 @@ const Feature = () => {
                         </Card>
                         <Card id='Card'>
                             <Card.Body>
+                                <div className='center'><FaVectorSquare id='icon' /></div>
                                 <Card.Title id='title'>Connect the tools you already use.</Card.Title>
                                 <Card.Text>
                                 Explore 100+ Integrations that make your cay-to-clay wonitiow more efficient and familiar Plus,
@@ -78,6 +86,7 @@ const Feature = () => {
                         </Card>
                         <Card id='Card'>
                             <Card.Body>
+                                <div className='center'><LuMessageCircleHeart id="icon" /></div>
                                 <Card.Title  id='title'>Our people make the difference</Card.Title>
                                 <Card.Text>
                                 We're an extension of your customer service team and all of our resources are free:
