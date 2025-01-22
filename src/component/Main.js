@@ -25,7 +25,7 @@ const Main = () => {
                 </div>
                 <p className='center'>Powerful, self-serve product and growth analytics to help you convert, engage,
                     and retain more users. Trusted by over 4,000 startups.</p>
-                <div className="row">
+                <div className="wrap">
                     <Button variant="light"  id='btn' size="lg">
                     <FaRegPlayCircle/> Demo
                     </Button>
@@ -40,13 +40,13 @@ const Main = () => {
                 <div className=''>
                     <Row className='cent'>
                         
-                        <Col><img src={logo1} alt={logo1} style={{width:"150px",height:"50px"}}/></Col>
-                        <Col><img src={logo2} alt={logo2} style={{width:"150px",height:"50px"}}/></Col>
-                        <Col><img src={logo3} alt={logo3} style={{width:"150px",height:"50px"}}/></Col>
+                        <Col><img src={logo1} alt={logo1} style={{width:"120px",height:"30px"}} /></Col>
+                        <Col><img src={logo2} alt={logo2} style={{width:"120px",height:"30px"}}/></Col>
+                        <Col><img src={logo3} alt={logo3} style={{width:"120px",height:"30px"}}/></Col>
                         
-                        <Col><img src={logo4} alt={logo4} style={{width:"150px",height:"50px"}}/></Col>
-                        <Col><img src={logo5} alt={logo5} style={{width:"150px",height:"50px"}}/></Col>
-                        <Col><img src={logo6} alt={logo6} style={{width:"150px",height:"50px"}}/></Col>
+                        <Col><img src={logo4} alt={logo4} style={{width:"120px",height:"30px"}}/></Col>
+                        <Col><img src={logo5} alt={logo5} style={{width:"120px",height:"30px"}}/></Col>
+                        <Col><img src={logo6} alt={logo6} style={{width:"120px",height:"30px"}}/></Col>
                         
                     </Row>
                 </div>
