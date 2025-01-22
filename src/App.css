@@ -74,14 +74,13 @@ h1{
 
 #btn{
   border-radius: 25px;
-  max-width: fit-content;
+  min-width: fit-content;
+  @media  (max-width:500px) {
+    width: 400px;
+    
+  }
 }
-.row{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 15px;
-}
+
 #dash{
   width: 90%;
   height: auto;
@@ -150,11 +149,12 @@ a {
   color: black;
   font-size: large;
   margin-top: 5px;
-}
-a:hover {
-  color: black;
-  background-color: transparent;
   text-decoration: underline;
+
+}
+
+a:link{
+  color: black;
 }
 #icon{
   width: 50px;
@@ -163,3 +163,14 @@ a:hover {
   margin-bottom: 10px;
 
 }
+.wrap{
+  display:flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  column-gap: 0.5rem;
+  @media  (max-width:500px) {
+    row-gap: 0.5rem;
+  }
+}
+
+
