@@ -125,7 +125,7 @@ const Feature = () => {
                         <Toggle/>
                     </div>
                 </div>
-                <div className='bg-body-tertiary' style={{height:"auto"}}>
+                <div className='bg-body-tertiary container' style={{height:"auto" ,borderRadius:"10px"}}>
                     <div className='center'>
                         <img src={men} alt={men} className='avatar'/>
                         <img src={women} alt={women} className='avatar'/>
