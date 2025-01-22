@@ -172,5 +172,11 @@ a:link{
     row-gap: 0.5rem;
   }
 }
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
 
 
