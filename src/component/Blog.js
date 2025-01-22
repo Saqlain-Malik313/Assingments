@@ -23,7 +23,7 @@ const Blog = () => {
                             <h3>Tool and strategies modern teams need to help their companies grow.</h3>
                         </Col>
                         <Col xs={3} style={{ justifyContent: "right", }}>
-                            <Button variant="danger" id='btn' size="lg" style={{ borderRadius: "5px" }}>
+                            <Button variant="danger" id='btn' size="lg" style={{ borderRadius: "5px",maxWidth:'fit-content' }}>
                                 View all post
                             </Button>
                         </Col>
