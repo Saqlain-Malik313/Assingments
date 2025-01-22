@@ -13,11 +13,11 @@ const Footer = () => {
                     <p className='center'>Powerful, self-serve product and growth analytics to help you convert, engage,
                         and retain more users. Trusted by over 4,000 startups.</p>
                     <div className='center container' style={{paddingBottom:"30px"}}>
-                        <div className="row ">
+                        <div className="wrap container ">
                             <Button variant="primary" id='btn' size="lg" style={{ borderRadius: "5px" }}>
                                 Learn more
                             </Button>
-                            <Button variant="danger" id='btn' size="lg" style={{ borderRadius: "5px", marginLeft: "5px" }}>
+                            <Button variant="danger" id='btn' size="lg" style={{ borderRadius: "5px",  }}>
                                 Get started
                             </Button>
                         </div>
