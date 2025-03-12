@@ -15,8 +15,8 @@ const Footer = () => {
                         and retain more users. Trusted by over 4,000 startups.</p>
                     <div className='center container-fluid' style={{paddingBottom:"30px"}}>
                         <div className="wrap container-fluid ">
-                            <Button variant="light" id='btn' size="lg" style={{ borderRadius: "5px",border:" .2 px black solid", color:"black" }}>
-                              <a href='https://www.geeksforgeeks.org/software-engineering-introduction-to-software-engineering/' style={{color:"black",}}>
+                            <Button variant="light" id='btn' size="lg" style={{ borderRadius: "5px",border:" .2 px black solid", color:"black"  }}>
+                              <a href='https://www.geeksforgeeks.org/software-engineering-introduction-to-software-engineering/' style={{color:"black", fontSize:"large",}}>
                              Learn more </a>
                             </Button>
                             <NavLink to='/stared'>
