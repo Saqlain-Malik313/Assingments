@@ -293,6 +293,12 @@ input {
   .bg {
     display: none;
   }
+  .bgg{
+    display: none;
+  }
+  .bggg{
+    display: none;
+  }
 
   form {
     display: 100%;
@@ -306,4 +312,46 @@ input {
 #d-flex{
   width: 50px;
   padding-right: 15px;  
+}
+
+.bgg {
+  width: 50%;
+  height: 100%;
+  background-image: url('https://media.istockphoto.com/id/617893290/photo/modern-keyboard-wih-contact-us-button.jpg?s=612x612&w=0&k=20&c=J_z4SI4gwIfTNmXELB7A9jXaZp-BjnZav1d_bjUVeAM=');
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+}
+
+.bgg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 140, 0, .5) 100%);
+}
+
+.bggg {
+  width: 50%;
+  height: 100%;
+  background-image: url('https://thumbs.dreamstime.com/b/membership-concept-template-registration-register-now-hand-lettering-iconon-word-desk-glasses-coffee-plant-membership-118835593.jpg');
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+}
+
+.bggg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 140, 0, .5) 100%);
 }
