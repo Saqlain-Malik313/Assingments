@@ -200,7 +200,7 @@ body {
 }
 
 .contain {
-  width: 1000px;;
+  max-width: max-content;
   height: 500px;
   display: flex;
   justify-content: center;
