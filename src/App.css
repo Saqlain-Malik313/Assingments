@@ -76,7 +76,7 @@ h1{
   border-radius: 25px;
   min-width: fit-content;
   @media  (max-width:500px) {
-    width: 400px;
+    width: 250px;
     
   }
 }
