@@ -46,7 +46,7 @@ const Foot = () => {
                         <li><a href='/Enterprise'>Enterprise</a></li>
                         <li><a href='/Goverment'>Goverment</a></li>
                         <li><a href='/Saas'>Saas center</a></li>
-                        <li><a href='/MarketPlaces'>MarketPlaces</a></li>
+                        <li><a href='/MarketPlaces'>Market</a></li>
                         <li><a href='/Ecommerce'>Ecommerce</a></li>
                     </h6>
                 </Col>
