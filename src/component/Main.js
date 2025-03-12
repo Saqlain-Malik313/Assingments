@@ -26,7 +26,7 @@ const Main = () => {
                 <p className='center'>Powerful, Self-Serve Product and growth analytics to help you convert, engage,
                     and retain more users. Trusted by over 4,000 startups.</p>
                 <div className="wrap"><Button veriant="light" variant="light"  id='btn' size="lg" >
-                    <a href='https://www.youtube.com/watch?v=Z7Ogq1QhXoI' style={{color:"black", height:"max-content" }} >
+                    <a href='https://www.youtube.com/watch?v=Z7Ogq1QhXoI' style={{color:"black", fontSize:"large",}} >
                     <FaRegPlayCircle style={{marginBottom:"2px"}}/>Demo</a></Button>
                     <NavLink to='/sign'>
                     <Button variant="danger" id='btn' size="lg">
