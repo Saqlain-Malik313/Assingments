@@ -8,7 +8,6 @@ import logo3 from "./logo/Fictional company logo (2).png"
 import logo4 from "./logo/Fictional company logo (3).png"
 import logo5 from "./logo/Fictional company logo (4).png"
 import logo6 from "./logo/Fictional company logo (5).png"
-import { NavLink } from 'react-router-dom';
 import { Row , Col, } from 'react-bootstrap';
 
 
@@ -29,11 +28,9 @@ const Main = () => {
                     <Button variant="light"  id='btn' size="lg">
                     <FaRegPlayCircle/> Demo
                     </Button>
-                    <NavLink to='/sign'>
                     <Button variant="danger" id='btn' size="lg">
                         sign up
                     </Button>
-                    </NavLink>
                     
                 </div>
                 <div className=' center'>
