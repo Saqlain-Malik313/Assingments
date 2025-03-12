@@ -11,6 +11,7 @@ import Toggle from './Toggle';
 import men from './logo/men.png';
 import women from './logo/women.png'
 import womenn from './logo/womenn.png'
+import { NavLink } from 'react-router-dom';
 
 const Feature = () => {
     return (
@@ -136,7 +137,9 @@ const Feature = () => {
                     </div>
                     <p className='center'>Cant't find the answer yor're looking for? Please chat to friendly team.</p>
                     <div className='center'>
+                        <NavLink to='/contact'>
                         <Button variant="danger" style={{marginBottom:"15px"}}>Get in touch</Button>
+                        </NavLink>
                     </div>
                     <div style={{border:"1px solid "}}></div>
                 </div>
