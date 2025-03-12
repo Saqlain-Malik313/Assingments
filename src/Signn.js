@@ -8,13 +8,11 @@ function Signn() {
     const obj =Object.fromEntries(formdata.entries())
     axios.post('https://jsonplaceholder.typicode.com/todos',obj)
     .then((res)=>{
-        alert("form submit ")
+        alert("Account Login ")
     }).catch((err)=>{
         console.log(err)
     })
     document.getElementById('username').value=('')
-    document.getElementById('email').value= ('')
-    document.getElementById('phone').value= ('')
     document.getElementById('password').value= ('')
 }
 
@@ -23,21 +21,16 @@ function Signn() {
             <div class="contain">
                 <div class="bg"></div>
                 <form  onSubmit={handler}>
-                    <h2 class="heading">Register-Here</h2>
+                    <h2 class="heading">Login-Here</h2>
 
                     <label >Username: </label>
                     <input type="text" id="username" name="username"  />
 
-                    <label >Email: </label>
-                    <input type="email" id="email" name="email"  />
-
-                    <label >phone: </label>
-                    <input type="text" id="phone" name="phone"  />
 
                     <label >Password: </label>
                     <input type="password" id="password" name="password"  />
 
-                    <button class="login-btn" type="submit">Create account</button>
+                    <button class="login-btn" type="submit" style={{backgroundColor:"Red", borderRadius:"10px"}}>Login-account</button>
                 </form>
             </div>
         </div>
