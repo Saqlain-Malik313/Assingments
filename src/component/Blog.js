@@ -10,6 +10,7 @@ import baker from './logo/men.png'
 import lana from './logo/womenn.png'
 
 import { Col, Row } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
 
 const Blog = () => {
     return (
@@ -23,9 +24,11 @@ const Blog = () => {
                             <h3>Tool and strategies modern teams need to help their companies grow.</h3>
                         </Col>
                         <Col xs={3} style={{ justifyContent: "right", }}>
+                        <NavLink to="/post">
                             <Button variant="danger" id='btn' size="lg" style={{ borderRadius: "5px",maxWidth:'fit-content' }}>
                                 View all post
                             </Button>
+                            </NavLink>
                         </Col>
                     </Row>
                     <Col>
