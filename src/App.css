@@ -195,8 +195,6 @@ a:link{
 body {
   background-size: cover;
   font-family: 'Roboto';
-  display: flex;
-  justify-content: center;
 }
 
 .contain {
