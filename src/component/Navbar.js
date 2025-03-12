@@ -7,9 +7,9 @@ import profile from "./logo/profile.jpg"
 
 const Navba=()=> {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" style={{color:"black", borderBottom:"3px solid "}}>
+    <Navbar expand="lg" className="bg-body-tertiary fixed-top"   style={{color:"black", borderBottom:"3px solid "}}>
       <Container fluid>
-        <Navbar.Brand href="#main"><img src={logo} alt={logo} id='imge'/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo} alt={logo} id='imge'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
