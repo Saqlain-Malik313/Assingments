@@ -40,7 +40,7 @@ const Foot = () => {
                     </h6>
                 </Col>
                 <Col className=''>
-                    <h3 style={{marginLeft:'20px'}}>Use cases</h3>
+                    <h3 style={{marginLeft:'20px'}}>Use In</h3>
                     <h6>
                         <li><a href='/Startup'>Startup</a></li>
                         <li><a href='/Enterprise'>Enterprise</a></li>
