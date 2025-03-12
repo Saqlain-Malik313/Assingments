@@ -43,7 +43,7 @@ const Feature = () => {
                                 <div className='center'><BsLightningCharge id='icon' /></div>
                                 <Card.Title id='title'>Deliver instant answers</Card.Title>
                                 <Card.Text>
-                                An ad-in-one customer service platform that heips you balance everything
+                                An ad-in-one customer service platform that helps you balance everything
                                 your customers need to be happy.
                                 </Card.Text>
                             </Card.Body>
