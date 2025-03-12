@@ -21,9 +21,9 @@ const Main = () => {
                     <p class="round3"><small class="round2">New feature</small>Check out the team dashboard→</p>
                 </div>
                 <div className='center'>
-                    <h1>Beautiful analytics to grow smarter</h1>
+                    <h1>Beautiful Analytics to grow smarter</h1>
                 </div>
-                <p className='center'>Powerful, self-serve product and growth analytics to help you convert, engage,
+                <p className='center'>Powerful, Self-Serve Product and growth analytics to help you convert, engage,
                     and retain more users. Trusted by over 4,000 startups.</p>
                 <div className="wrap"><Button veriant="light" variant="light"  id='btn' size="lg" >
                     <a href='https://www.youtube.com/watch?v=Z7Ogq1QhXoI' style={{color:"black", height:"max-content" }} >
